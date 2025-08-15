@@ -1,5 +1,21 @@
+# macOS
 .DS_Store
-*.old
+
+# VS Code settings (local per developer)
 .vscode/
-.cache/
+
+# ESP-IDF build artifacts
 build/
+managed_components/
+dependencies.lock
+
+# ESP-IDF auto-generated/backup configs
+sdkconfig.old
+
+# Cache directories
+.cache/
+
+# Backup files
+*.old
+*.bak
+
